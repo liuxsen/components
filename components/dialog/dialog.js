@@ -1,4 +1,5 @@
-const dialogHtml = require('./dialog.html');
+import dialogHtml from './dialog.html';
+import './dialog.css';
 
 console.log(dialogHtml);
 const tempate = document.createElement('div');
