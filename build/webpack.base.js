@@ -4,6 +4,10 @@ const path = require('path');
 module.exports = {
   entry: path.join(__dirname, '..', './components/dialog/dialog.js'),
   output: {
+      library: 'Dialog',
+      libraryTarget: 'umd',
+      // filename: 'someLibName.js',
+      // auxiliaryComment: 'Test Comment'
       path: path.join(__dirname, '..', 'dist'),
       filename: 'bundle.js'
   },
